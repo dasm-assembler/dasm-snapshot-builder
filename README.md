@@ -1,2 +1,5 @@
-# dasm-snapshot-builder
-This is a GitHub action to build DASM snapshots and automatically commit the packaged snapshots into the source branch
+# DASM docker build action
+
+This action builds DASM from a git branch, and commits the packaged snapshot releases back into the same branch.
+
+## Only for internal usage

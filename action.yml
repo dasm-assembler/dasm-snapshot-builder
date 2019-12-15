@@ -1,0 +1,10 @@
+# action.yml
+name: 'DASM Snapshot Builder'
+description: 'Builds DASM snapshots'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.branch }} 
+    - ${{ inputs.username }} 
+    - ${{ inputs.password }}
